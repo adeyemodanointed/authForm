@@ -1,0 +1,30 @@
+.regForm{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.regForm input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 250px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#submit{
+    width: 100px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
